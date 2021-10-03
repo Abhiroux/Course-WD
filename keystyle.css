@@ -1,0 +1,312 @@
+
+/* Body styling */
+body{
+    /* font-family: 'Baloo 2', cursive; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* keaboard contaner styling */
+.keyboard{
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 20px 0px;
+    background-color: rgb(189, 241, 237);
+           
+    flex-direction: column;
+
+    
+}
+
+
+
+ /* Keyboard button rows styling */
+
+#function_row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#first_row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#second_row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#third_row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#fourth_row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#last_row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* keybox styling */
+
+.funbox{
+    display: flex;
+    width: 45.9px;
+    height: 20px;
+    border: 2px solid rgb(212, 84, 84);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    
+    
+}
+.box{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(212, 84, 84);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    
+    
+}
+.box2{
+    display: flex;
+    width: 59.2px;
+    height: 60px;
+    border: 2px solid rgb(212, 84, 84);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    
+    
+}
+.box3{
+    display: flex;
+    width: 59.2px;
+    height: 60px;
+    border: 2px solid rgb(212, 84, 84);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    
+    
+}
+.box4{
+    display: flex;
+    width: 59.2px;
+    height: 60px;
+    border: 2px solid rgb(212, 84, 84);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    
+    
+}
+.box5{
+    display: flex;
+    width: 59.2px;
+    height: 60px;
+    border: 2px solid rgb(212, 84, 84);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    
+    
+}
+
+
+/* Letters in Keyboxes styling */
+
+.funbox div{
+    font-size: 15px;
+    font-weight:normal;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box div{
+    font-size: 20px;
+    font-weight:bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box2 div{
+    font-size: 20px;
+    font-weight:bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box3 div{
+    font-size: 20px;
+    font-weight:bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box4 div{
+    font-size: 20px;
+    font-weight:bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box5 div{
+    font-size: 20px;
+    font-weight:bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* specific buttons (like SHIFT, CAPS LOCK, ENTER AND BACKSPACE) syling */
+
+#Fkey1{
+    width: 30px;
+}
+#Fkey14{
+    width: 90px;
+}
+#skey1{
+    width: 70px;
+}
+#tkey1{
+    width: 85px;
+}
+#tkey13{
+    width: 121px;
+}
+#fkey1{
+    width: 120px;
+}
+#fkey12{
+    width: 165px;
+}
+#lkey3{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#lkey5{
+    width: 396px;
+
+    
+}
+#lkey8{
+    width: 220px;
+    background: none;
+    padding: 0px;
+    border: none;
+    box-shadow: none;
+    
+}
+#skey1 div,#tkey1 div,#fkey1 div{
+    justify-content: left;
+}
+#tkey13 div,#fkey12 div,#Fkey14 div{
+    justify-content: flex-end;
+}
+
+
+/* <--form here to next comment line are very complex logics--> */
+.navi{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    display: flex;
+    width: 68px !important;
+    padding-top: 3px;
+}
+
+.up,.navkey{
+    
+    
+    border-radius: 10px;
+    border: 2px solid rgb(212, 84, 84);
+    width: 60px;
+    background: linear-gradient(90deg, rgba(237,80,0,1) 6%, rgba(255,255,255,1) 50%, rgba(46,187,14,1) 96%);
+    margin-top: 5px;
+    margin-left: 5px;
+    box-shadow: 2px 3px 1px 1px rgb(65, 62, 62);
+
+}
+#left,#right,#mid{
+    padding: 1px 0px;
+}
+/* <--end of complex logics--> */
+
+
+/* keybox layout */
+.box,.box2,.box3,.box4,.box5,.funbox{
+    box-shadow: 2px 3px 1px 1px rgb(65, 62, 62);
+    background: linear-gradient(90deg, rgba(237,80,0,1) 6%, rgba(255,255,255,1) 50%, rgba(46,187,14,1) 96%);
+    color: #000000;
+    margin: 3px;
+}
+
+/* finger keyboxes Animation*/
+#tkey2,#tkey3,#tkey4,#tkey5,#tkey8,#tkey9,#tkey10,#tkey11,#lkey5{
+    /* background: linear-gradient(80deg, #f3efef, #90009f, #01060d); */
+    background: linear-gradient(90deg, rgba(237,80,0,1) 6%, rgba(255,255,255,1) 50%, rgba(46,187,14,1) 96%);
+    animation: fingerpoint 3s linear infinite;
+    background-size: 250% 250%;
+}
+@keyframes fingerpoint { 
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+
+}
+
+.section1 h1,p{
+    text-align: center;
+}
+.section1 h1{
+    color: crimson;
+}
+.section1 p{
+    font-family: 'Baloo 2', cursive;
+}
